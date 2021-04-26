@@ -8,12 +8,12 @@
 dockerpath = vickydavid/project4
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run project4 --image=vickydavid/project4 --port=80
-sleep 10
+kubectl run omlmapi --image=vickydavid/project4:omlmapi --port=80
+sleep 60
 # Step 3:
 # List kubernetes pods
 kubectl get pods
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward project4 8000:80
+kubectl port-forward omlmapi 8000:80
 

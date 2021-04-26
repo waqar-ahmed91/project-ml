@@ -11,8 +11,8 @@ dockerpath = vickydavid/project4
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login --username vickydavid
-docker tag project4 vickydavid/project4:project4
+docker tag omlmapi vickydavid/project4:omlmapi
 
 # Step 3:
 # Push image to a docker repository
-docker push vickydavid/project4:project4
+docker push vickydavid/project4:omlmapi
