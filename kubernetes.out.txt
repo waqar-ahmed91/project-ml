@@ -1,7 +1,0 @@
-Error from server (AlreadyExists): pods "omlmapi" already exists
-NAME       READY   STATUS             RESTARTS   AGE
-omlmapi    1/1     Running            0          7m35s
-project4   0/1     ImagePullBackOff   0          35m
-Forwarding from 127.0.0.1:8000 -> 80
-Forwarding from [::1]:8000 -> 80
-Handling connection for 8000
