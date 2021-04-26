@@ -18,14 +18,14 @@ The Project Tasks are:
 
 ## Project Files Explanation
 
-circleci: config.yml file for configuration.
-app.py: A Flask app to predict the house prices.
-Makefile: To install requirements and lint testing.
-Dokerfile: For image building.
-run_docker.sh: To run the app through docker
-make_prediction.sh: To send the request for prediction.
-upload_docker.sh: For uploading the image to docker.
-run_kubernetes.sh: For running the app in kubernetes.
+- circleci: config.yml file for configuration.
+- app.py: A Flask app to predict the house prices.
+- Makefile: To install requirements and lint testing.
+- Dokerfile: For image building.
+- run_docker.sh: To run the app through docker
+- make_prediction.sh: To send the request for prediction.
+- upload_docker.sh: For uploading the image to docker.
+- run_kubernetes.sh: For running the app in kubernetes.
 
 ## Setup the Environment
 
